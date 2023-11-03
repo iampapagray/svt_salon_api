@@ -1,0 +1,5 @@
+# dont lint node_modules
+node_modules
+
+# build folder
+dist

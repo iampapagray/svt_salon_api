@@ -62,6 +62,7 @@ Install dependencies. I use pnpm here but feel free to use either npm, yarn or b
 ```
 pnpm install
 ```
+
 Run the dev script. This will get the api running and listening on your local machine
 
 ```
@@ -70,8 +71,7 @@ pnpm run dev
 
 ## 🎈 Usage <a name="usage"></a>
 
-To use this api, get the frontend of the project and run both simultaneously 
-
+To use this api, get the frontend of the project and run both simultaneously
 
 ## ⛏️ Built Using <a name = "built_using"></a>
 

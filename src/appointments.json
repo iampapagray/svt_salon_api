@@ -12,5 +12,19 @@
     "text": "Default Long Booking 2",
     "start_date": "2023-11-03 13:30",
     "end_date": "2023-11-03 17:30"
+  },
+  {
+    "id": 1699028729223,
+    "author": "James Oko",
+    "text": "Testing schedules",
+    "start_date": "2023-11-04 08:30",
+    "end_date": "2023-11-04 10:00"
+  },
+  {
+    "id": 1699034828221,
+    "author": "Fred Ampah",
+    "text": "Coach",
+    "start_date": "2023-11-02 09:00",
+    "end_date": "2023-11-02 10:00"
   }
 ]
