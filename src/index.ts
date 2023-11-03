@@ -1,8 +1,11 @@
 import express from 'express'
-import fs from 'fs'
+import cors from 'cors'
 import { addBooking, getAll, getById } from './helpers.js'
 
 const app = express()
+app.use(cors({
+    origin: 'http://localhost:5173',
+}))
 const port = 4005
 
 // Fetch all appointments from file

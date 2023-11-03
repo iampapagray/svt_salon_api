@@ -3,14 +3,14 @@
     "id": 1,
     "author": "admin",
     "text": "Default Booking 1",
-    "start_date": "02-11-2023 08:30",
-    "end_date": "02-11-2023 09:30"
+    "start_date": "2023-11-03 08:30",
+    "end_date": "2023-11-03 09:30"
   },
   {
     "id": 2,
     "author": "admin",
     "text": "Default Long Booking 2",
-    "start_date": "01-11-2023 13:30",
-    "end_date": "01-11-2023 14:30"
+    "start_date": "2023-11-03 13:30",
+    "end_date": "2023-11-03 17:30"
   }
 ]
