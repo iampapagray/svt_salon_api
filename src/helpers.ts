@@ -80,6 +80,7 @@ export const updateBooking = async(appointment: Partial<Appointment>) => {
     }
 
     const updated = {...single, ...appointment}
-    await writeFile('./src/appointment.json', JSON.stringify(updated, null, 2))
+    await removeById(appointment.id)
+    await addBooking(updated)
 }
 

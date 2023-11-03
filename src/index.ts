@@ -24,13 +24,13 @@ app.post('/', async (req, res) => {
 })
 
 // Update Booking
-app.put('/booking', async (req, res) => {
-    res.send("Saved Booking")
+app.put('/', async (req, res) => {
+    res.send("Updated Booking")
 })
 
 // Delete Booking
-app.delete('/booking',async (req, res) => {
-    res.send("Saved Booking")
+app.delete('/',async (req, res) => {
+    res.send("Deleted Booking")
 })
 
 
