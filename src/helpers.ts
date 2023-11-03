@@ -2,6 +2,7 @@ import { readFile, writeFile } from "fs/promises";
 
 interface Appointment {
   id: number;
+  text: string;
   author: string;
   start_date: string;
   end_date: string;
@@ -58,7 +59,7 @@ export const removeById = async (id: number) => {
     const list = await getAll();
 
     if (typeof list != "string") {
-      const updated = list.filter((booking) => booking.id !== id);
+      const updated = list.filter((booking) => booking.id != id);
       await writeFile('./src/appointments.json', JSON.stringify(updated, null, 2))
 
     } else {
