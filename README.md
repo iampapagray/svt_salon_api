@@ -54,7 +54,7 @@ A step by step series of examples that tell you how to get a development env run
 Clone the repository to your local machine
 
 ```
-git clone https://github.com/iampapagray/
+git clone git@github.com:iampapagray/svt_salon_api.git
 ```
 
 Install dependencies. I use pnpm here but feel free to use either npm, yarn or bun
